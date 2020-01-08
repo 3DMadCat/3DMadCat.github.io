@@ -187,11 +187,11 @@ header.masthead .post-heading .meta a {
   }
 
   .navbar-brand-logo{ display: none; }
-
-  /*
   .list-inline-item{ display: block; margin-bottom: 20px; text-align: left !important; }
-  .list-inline-item .social-link-on-mobile{ display: inline-block; margin-left: 70px; text-transform: capitalize; }
-  */
+
+  .list-inline-item .social-link-on-mobile{
+    display: inline-block; margin-left: 70px; text-transform: capitalize;
+  }
 
   header.masthead .page-heading h1,
   header.masthead .site-heading h1 {
