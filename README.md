@@ -1,9 +1,4 @@
-##### 3DMadCat
-
-```
-Hi!
-I'm an Art, 3D-Art, 3D Pen, DIY, Sculpture maker enthusiast.
-```
+##### 3DMadCat, I'm an Art, 3D-Art, 3D Pen, DIY, Sculpture maker enthusiast.
 
 #### Feel free to Follow me on Twitter, Instagram and Youtube.
 
