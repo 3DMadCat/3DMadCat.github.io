@@ -1,0 +1,18 @@
+#article-nav{
+  display: flex; min-height: 200px; justify-content: space-between;
+  width: 100%; box-sizing: border-box; padding: 20px;
+  border-top: dashed 1px #555; margin-top: 30px; 
+  /* box-shadow: 0 0 3px #F00; */
+}
+
+.article-nav-caption{
+  padding-right: 20px;
+}
+
+.article-nav-title{ 
+  font-size: 15px;
+}
+
+#article-nav-older{ text-align: left; align-self: flex-start; }
+#article-nav-newer{ text-align: right; align-self: flex-end; margin-left: auto; }
+
