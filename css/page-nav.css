@@ -1,0 +1,101 @@
+/*  
+<div id="page-nav">
+  <span class="page-number current">1</span>
+  <a class="page-number" href="/page/2/">2</a>
+  <a class="extend next" rel="next" href="/page/2/">Next &gt;</a>
+</div>
+*/
+
+#page-nav{
+  display: block; width: 100%; box-sizing: border-box; padding: 10px;
+  text-align: center; background-color: #F6F6F6;
+}
+
+/*
+.page-number{ 
+  display: inline-block; vertical-align: top; min-width: 30px; min-height: 30px;
+}
+
+.page-number  .current{}
+*/
+
+
+/*
+<h2>Centered Pagination</h2>
+
+<div class="center">
+  <div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#" class="active">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+  </div>
+</div>
+*/
+
+/*
+.pagination {
+  display: inline-block; vertical-align: top;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+*/
+
+
+.page-number, .extend.prev, .extend.next {
+  display: inline-block; vertical-align: top;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.page-number.current {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.page-number:hover:not(.current),
+.extend.prev:hover:not(.current),
+.extend.next:hover:not(.current){ 
+  background-color: #ddd;
+}
+
+/*
+<div id="page-nav">
+  <a class="extend prev" rel="prev" href="/">&lt; Prev</a>
+
+  <a class="page-number" href="/page/1/">1</a>
+  <a class="page-number" href="/page/2/">2</a>
+
+  <span class="page-number current">3</span>
+  <a class="page-number" href="/page/4/">4</a>
+
+  <a class="extend next" rel="next" href="/page/4/">Next &gt;</a>
+</div>
+*/
+    
+  
