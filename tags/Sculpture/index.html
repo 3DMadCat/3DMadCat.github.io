@@ -5,12 +5,7 @@
     
 
     <script type="text/javascript">
-      console.log(` protocol: ${location.protocol}, host: ${location.host} `);
-
-      if( location.host === '3dmadcat.com' && location.protocol !== 'https' ){
-        setTimeout(()=>{ location.href = `https://${location.host}${location.pathname}` },500);
-      }
-
+      if( location.host === '3dmadcat.com' && location.protocol !== 'https:' ) location.href = `https://${location.host}${location.pathname}`;
     </script>
 
     <meta charset="utf-8"/>
